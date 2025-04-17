@@ -85,7 +85,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
   </head>
-  <body>
+  <body id="my-background">
     <header id="hero">
       <!-- Navbar -->
       <nav class="navbar">
@@ -104,7 +104,7 @@
             <li>
               <a
                 class="nav-link btn btn-primary"
-                href="https://github.com/CommunityPro/portfolio-html"
+                href=""
                 >RESUME <i class="fas fa-arrow-right"></i
               ></a>
             </li>
@@ -197,7 +197,7 @@
           <div class="project-info">
             <div class="project-bio">
               <h3>Project Three</h3>
-              <p>React, Redux, SASS</p>
+              <p>React,Redux,SASS</p>
             </div>
 
             <div class="project-link">
@@ -242,7 +242,7 @@
           <div class="project-info">
             <div class="project-bio">
               <h3>Project Six</h3>
-              <p>React, Redux, SASS</p>
+              <p>React,Redux,SASS</p>
             </div>
 
             <div class="project-link">
@@ -254,7 +254,7 @@
       </article>
 
       <a href="#" class="btn btn-secondary"
-        target="_blank" >See More <i class="fas fa-arrow-right"></i
+        target="_blank" >See More<i class="fas fa-arrow-right"></i
       ></a>
     </section>
 
@@ -289,9 +289,22 @@
             />
           </a>
         </div>
-        <p>Copyright &copy; Technopro <span id="datee"></span>, All rights reserved</p>
+        <p>Copyright &copy; Technopro<span id="datee"></span>, All rights reserved</p>
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.halo.min.js"></script>
+<script>
+
+VANTA.HALO({
+  el: "#my-background",
+  mouseControls: false,
+  touchControls: true,
+  gyroControls: true,
+  minHeight: 100.00,
+  minWidth: 100.00
+})
+</script>
   </body>
 </html>

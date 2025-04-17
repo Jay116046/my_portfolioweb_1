@@ -35,7 +35,7 @@
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
   --bg-primary: #000000;
-  --text-color: #ffffff;
+  --text-color: #03e6ff;
   --text-color-two: #222222;
   --bg-secondary: #ffffff;
   --card-background: #111111;
@@ -74,7 +74,7 @@ body {
 
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
